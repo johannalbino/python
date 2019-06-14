@@ -79,7 +79,7 @@ x = jogadores(qtdJogadores, float(2000.00), tuple(cartasJogador))
 
 #x.dinheiro[1] = x.apostar(x.nPlayer[1], 200)
 
-print (x.nPlayer[0], x.dinheiro[0], ' outro ', x.nPlayer[1], x.dinheiro[1])
+#print (x.nPlayer[0], x.dinheiro[0], ' outro ', x.nPlayer[1], x.dinheiro[1])
 
 
 
