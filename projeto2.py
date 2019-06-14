@@ -84,3 +84,5 @@ x = jogadores(qtdJogadores, float(2000.00), tuple(cartasJogador))
 
 
 print (cartas(x.nPlayer[0], x.cartasJo[0]))
+
+print ("Aqui é so um teste de GIT, vamos adiante")
