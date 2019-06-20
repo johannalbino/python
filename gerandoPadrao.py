@@ -49,10 +49,10 @@ class gerandoPadrao(object):
         self.arquivoFinanceiro = ['sist/arq/*  #', 
                      'sist/arqb/*  #', 
                      'sist/arqc/* #']
-        self.diretorios = ['sist/sped/*', 'sist/arqf*/', 'sist/arqv/*', 'sist/arqm/*']
+        self.diretorios = ['sist/sped/*', 'sist/arqf/*', 'sist/arqv/*', 'sist/arqm/*']
 
-    def zerandoListas(self, dados, arquivoSaida, diret):
-        if len(dados) > 0 and len(str(arquivoSaida)) > 0 and len(diret) > 0:
+    def zerandoListas(self):
+        if len(self.dados) > 0 and len(str(self.arquivoSaida)) > 0 and len(self.dire) > 0:
             del self.dados
             del self.arquivoSaida
             del self.dire
@@ -202,16 +202,16 @@ try:
         print ("1 - Fiscal\n2 - Contabil\n3 - Materiais\n4 - Financeiro\n5 - Sair")
         opcao = int(input("Você deseja criar uma arquivo padrao para qual tipo de teste?\n"))
         if opcao == 1:
-            padrao.zerandoListas(padrao.dados, padrao.arquivoSaida, padrao.dire)
+            padrao.zerandoListas()
             padrao.gerarArquivoFiscal()
         elif opcao == 2:
-            padrao.zerandoListas(padrao.dados, padrao.arquivoSaida, padrao.dire)
+            padrao.zerandoListas()
             padrao.gerarArquivoContabil()
         elif opcao == 3:
-            padrao.zerandoListas(padrao.dados, padrao.arquivoSaida, padrao.dire)
+            padrao.zerandoListas()
             padrao.gerarArquivoMateriais()
         elif opcao == 4:
-            padrao.zerandoListas(padrao.dados, padrao.arquivoSaida, padrao.dire)
+            padrao.zerandoListas()
             padrao.gerarArquivoFinanceiro()
         elif opcao == 5:
             exit()
