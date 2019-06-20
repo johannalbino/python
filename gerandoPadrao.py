@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from platform import python_version
+
 class gerandoPadrao(object):
     def __init__(self):
         self.nameArquivoFiscal = 'fiscalpadrao.sh'
@@ -15,15 +17,31 @@ class gerandoPadrao(object):
         self.arquivoParametros = ['arq/* #',
                      'sist/arq/sp01a01* #Parametro da filial',
                      'sist/arq/sp01a00* #Parametro da filial',
-                     'sist/arq/sp03a80* #Parametro da filial'
+                     'sist/arq/sp03a80* #Parametro da filial',
                      'sist/arq/sp01a04* #Ficha Financeira',
                      'sist/arq/sp01a77* #Grupo de preços']
-        self.arquvioMateriais = ['sist/arq/sp01a09* #Pedido de cliente']
-        self.diretorios = ['sist/sped/', 'sist/arqf/', 'sist/arqv/', 'sist/arqm/']
+        self.arquvioMateriais = ['arq/* #',
+                     'sist/arq/sp01a09* #Pedido de cliente', 
+                     'sist/arq/sp01a13* #Pedido de fornecedor', 
+                     'sist/arqd/sp01*03* #Dedo duro produto',
+                     'sist/arqa/sp01*03* #Arquivo auxiliar de produtos',
+                     'sist/arqa/sp01*22* #Arquivo auxiliar de produtos',
+                     'sist/arqpd/iv* #arquivos de inventario',
+                     'sist/arq/sp01a27* #Cadastro de compradores']
+        self.arquivoFinanceiro = ['sist/arq/*  #', 
+                     'sist/arqb/*  #', 
+                     'sist/arqc/* #']
+        self.diretorios = ['sist/sped/*', 'sist/arqf*/', 'sist/arqv/*', 'sist/arqm/*']
 
     def usuario(self):
         condicao = True
-        client = input_raw("Qual o cliente ? ")
+
+        if int(python_version()[0]) < 3:
+            client = input_raw("Qual o cliente ? ")
+        
+        else:
+            client = input("Qual o cliente ? ")
+
         mes = int(input("Qual o mês de referencia que deseja criar o arquivo ? "))
 
         #validando o mes informado pelo usuario
@@ -61,6 +79,11 @@ class gerandoPadrao(object):
         for i in self.arquivoFiscal, self.arquivoParametros, self.dir:
             for x in i:
                 self.arquivoSaida.writelines('rar a '+self.dados[0]+' '+str(x)+'\n')
+        self.arquivoSaida.writelines('mv '+self.dados[0]+' /u/rede/avanco/ \n')
+
+        self.arquivoSaida.writelines("#Seu arquivo esta disponivel em /u/rede/avanco/"+self.dados[0]+".rar\n")
+
+        print ("Seu arquivo padrao foi gerado com sucesso!")
         self.arquivoSaida.close()
 
 
@@ -78,8 +101,21 @@ try:
     print ('Após gerar o arquivo .sh deve colocar no servidor no caminho /u e digitar o comando : sh setor+padrao.sh\n')
     print ('Ao terminar a execução do comando no servidor, vai criar um arquivo no formato .rar com o nome base+nomeCliente.rar no local /u\n')
 
-
-    padrao.gerarArquivoFiscal()
+    print ("Deseja criar uma base padrao para qual setor ?\n")
+    print ("1 - Fiscal\n2 - Contabil\n3 - Materiais\n4 - Financeiro\n")
+    opcao = int(input("Você deseja criar uma arquivo padrao para qual tipo de teste?\n"))
+    while True:
+        if opcao == 1:
+            padrao.gerarArquivoFiscal()
+        
+        elif opcao == 2:
+            pass
+        
+        elif opcao == 3:
+            pass
+        
+        elif opcao == 4:
+            pass   
 
 except NameError as e:
     print (e)
