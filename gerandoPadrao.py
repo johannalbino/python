@@ -49,7 +49,7 @@ class gerandoPadrao(object):
         self.arquivoFinanceiro = ['sist/arq/*  #', 
                      'sist/arqb/*  #', 
                      'sist/arqc/* #']
-        self.diretorios = ['sist/sped/*', 'sist/arqf/*', 'sist/arqv/*', 'sist/arqm/*']
+        self.diretorios = ['sist/sped/*', 'sist/arqi/*', 'sist/arqf/*', 'sist/arqv/*', 'sist/arqm/*']
         print ("Listas carregadas com sucesso!")
 
     def zerandoListas(self):
@@ -65,15 +65,16 @@ class gerandoPadrao(object):
         valida = False
 
         if int(python_version()[0]) < 3:
-            self.client = input_raw("Qual o cliente ? ")
+            self.client = raw_input("Qual o cliente ? ")
             if len(self.client.split()) > 1:
                 self.client = self.validaName(self.client.split())
+            self.mes = raw_input("Qual o mês de referencia que deseja criar o arquivo ? ")
         
         else:
             self.client = input("Qual o cliente ? ")
             if len(self.client.split()) > 1:
                 self.client = self.validaName(self.client.split())
-        self.mes = input("Qual o mês de referencia que deseja criar o arquivo ? ")
+            self.mes = input("Qual o mês de referencia que deseja criar o arquivo ? ")
         self.valida = self.validaInteiro(self.mes)
 
         #validando o mes informado pelo usuario
@@ -81,20 +82,29 @@ class gerandoPadrao(object):
             self.mes = int(self.mes)
             while self.valida == True and self.mes > 12 or self.mes <=0:
                 print ("Mês informado incorreto.\n")
-                self.mes = input("Qual o mês de referencia que deseja criar o arquivo ? ")
+                if int(python_version()[0]) < 3:
+                    self.mes = raw_input("Qual o mês de referencia que deseja criar o arquivo ? ")
+                else:
+                    self.mes = input("Qual o mês de referencia que deseja criar o arquivo ? ")
                 self.valida = self.validaInteiro(self.mes)
                 if self.valida == True: self.mes = int(self.mes)
 
         while self.valida == False:
             if self.valida == False:
                 print ("Mês informado incorreto.\n")
-                self.mes = input("Qual o mês de referencia que deseja criar o arquivo ? ")
+                if int(python_version()[0]) < 3:
+                    self.mes = raw_input("Qual o mês de referencia que deseja criar o arquivo ? ")
+                else:
+                    self.mes = input("Qual o mês de referencia que deseja criar o arquivo ? ")
                 self.valida = self.validaInteiro(self.mes)
 
                 if self.valida == True: 
                     self.mes = int(self.mes)
 
-        self.ano = input("Qual o ano de referencia que deseja criar o arquivo ? (Apenas dois digitos. Ex: 19) ")
+        if int(python_version()[0]) < 3:
+            self.ano = raw_input("Qual o ano de referencia que deseja criar o arquivo ? (Apenas dois digitos. Ex: 19) ")    
+        else:
+            self.ano = input("Qual o ano de referencia que deseja criar o arquivo ? (Apenas dois digitos. Ex: 19) ")
 
         self.valida = self.validaInteiro(self.ano)
 
@@ -104,7 +114,10 @@ class gerandoPadrao(object):
         while self.valida == False or len(str(self.ano)) > 2:
             if self.valida == False or len(str(self.ano)) > 2:
                 print ("Ano informado incorreto.\n")
-                self.ano = input("Qual o ano de referencia que deseja criar o arquivo ? (Apenas dois digitos. Ex: 19) ")
+                if int(python_version()[0]) < 3:
+                    self.ano = raw_input("Qual o ano de referencia que deseja criar o arquivo ? (Apenas dois digitos. Ex: 19) ")    
+                else:
+                    self.ano = input("Qual o ano de referencia que deseja criar o arquivo ? (Apenas dois digitos. Ex: 19) ")
                 self.valida = self.validaInteiro(self.ano)
 
                 if self.valida == True: 

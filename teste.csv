@@ -1,0 +1,878 @@
+Marca;Modelo;Ano
+Procurar arquivo ,> cd /u/producao/fontes/fds/arquivo maiusculo
+""
+""
+sp04a75 , /u/sist/arqm/ , Rebuild Especial
+""
+Registro duplicado : sp01a16 , reAAMMDD , sist/arqc
+integ053 , Opção 2 : mov170 
+============================================================================
+bd01a05 , /u/sist/bd/, trncupomcv    ,,,,, fun037.gnt (atualizar)
+bd01r05 , ../../javascript/req/ , mercafDATA,TIME.csv
+bd01g05 , /u/sist/arqd/bd01g05 , rebuild
+sp07a18 , ../sist/LL , Log de cupons
+sp05a27 , ../arqf/  Tabela de codigo fiscais + produto (Bruno tem o arquivo )
+pr01a11 , Impressoras    ../../arqh 
+sp06a13 , /u/sist/arqv/ (ceAAMM)
+sp03t60 , /u/sist/arqe/ , NE
+sp03t62 , /u/rede/dapi
+sp03t69 , /u/sist/trb/ , *TRA*
+sp03x01 , /u/sist/trb/ , criar pasta trb
+arq.trb , /u/rede/RETAG/ped/
+av01a35 , /u/rede/clientes/reqs
+av01a36 , /u/rede/clientes
+av01a38 , /u/rede/TOTAL/<pasta do dia>/ LLCCCCCC.PP ::  LL: Loja , CCCCCC: cupom , PP: PDV
+eftc100 , /u/sist/tmp,sped/
+eft0200 , /u/sist/tmp,sped/ , 0200
+bl01a01 , 
+bl01a10 , /u/rede/arqp
+ct01a01 , /u/arq/ , 
+dr01a01 , /u/rede/scanntech/
+dr01a01 , /u/rede/RETAG/AAAMMDD
+dr01l01 , /u/rede/scanntech/Log,ReducaoZ
+dr01p01 , /u/rede/RETAG/<data>/SAT,NFCE ,,, /u/sist/tmp/dr01p01,*
+va01a20 , /u/sist/arqv/ , cadLLLAAMM
+va01a21 , /u/sist/arqv/ , caiLLLAAMM
+va01a23 , /u/sist/LL/ , ncAAMM
+va01a24 , /u/sist/LL/ , niAAMM
+va01t11 , /u/sist/LL/ , iCCCCCCXX
+va01r11 , /u/rede/csv/ , cupons,ant,atu.csv
+vd04a10 , /u/sist/arqc/ , cnAAMMLL
+vd04a11 , /u/sist/arqc/ , Fechamento Caixa , Bloqueio , blaammll AA: Ano , MM: Mes , LL: Loja
+vd04a12 , /u/sist/arqc/ , lgaammll AA: Ano , MM: Mes , LL: Loja
+sp01n01 , /u/rede/BOLETAS/
+sp01r01 , /u/sist/rel/eFisEEHHMMSS ::  ../tmp,sped/Z999LLAAMMDATAHORA
+sp01z03 , /u/sist/arqa/ , Produtos Excluidos
+sp01c03 , /u/rede/csv/
+sp01g03 , /u/arq/ , 5 níveis
+sp01v04 , /u/arq/ , Produtos VINCULADOS , Codigo so PARA VENDA
+sp01w04 , /u/rede/notas/ :: /u/rede/perdas/LL
+sp01w08 , /u/sist/tmp/ , txHHMMSS
+sp01c10 , /u/sist/arqm/ , exaamm
+sp01t11 , /u/rede/integral/dominio/ , /u/rede/integral/alterdata/
+sp01t10 , /u/sist/tmp/spHHMMSS :: ../trb/RQLLLUUUUUDDDDDD :: /u/rede/tmp/ :: ../trb/LLMMUUUU :: /u/rede/tmp/precos
+sp01w10 , /u/sist/tmp/ , ww+hora
+sp01t13 , /u/sist/LL/ , tbAAMM
+sp01e10 , /u/sist/tmp/ , gg 
+sp01e16 , /u/rede/sped/ , sist/tmp,sped
+sp01z22 , /u/sist/arqa/
+sp01r25 , /u/rede/svt/
+sp02w02 , /u/sist/tmp , rr
+sp02x39 , /u/arq/ , sp04m45
+sp02t75 , /u/sist/tmp , PEhhmmss
+sp03t01 , /u/sist/tmp
+sp03a41 , /u/sist/arqo , Observação por filial
+sp03a58 , /u/sist/arqf , manifaamm , Arquivo de manifestação
+sp03c60 , /u/rede/nfe/LL/ , Arquivo de retorno de nfe cancelada
+sp03h60 , /u/sist/arqd/ , log/dedo duro
+sp03i60 , /u/rede/nfe/LL/ , retornado
+sp03r60 , /u/rede/nfe/LL/ , /u/rede/csv
+sp03p60 , /u/rede/trb/fisc
+sp03t31 , /u/sist/arqe/ , NB
+sp03v69 , /u/sist/arqf/fiscviAAMM
+sp03o69 , /u/sist/arqd/ , Arquivo de dedo duro da movimentação
+sp03a82 , /u/sist/arqf/ , rebuild ou remover arquivo
+sp04a21 , /u/arq/ , IBGE,Cidade
+sp04a27 , /u/sist/arqm/ , peAAMM
+sp04a65 , /u/sist/arq/ , Motivo
+sp04x48 , /u/sist/pro/peDDMMAA
+sp04a49 , /u/arq/ , Cadastro geral Balança
+sp04a68 , /u/sist/arqm/ , Vinculação pedido entrada
+sp04a77 , /u/sist/arqpd , iv
+sp04o77 , /u/sist/arqd/ , Dedo duro de inventário
+sp05a30 , /u/sist/ctb/LLL/ , intori
+sp05a34 , /u/sist/ctb/
+sp05a50 , /u/sist/ctb/LLL , lanc
+sp05a53 , /u/sist/ctb/LLL , histLLL
+sp05a58 , /u/sist/ctb/LLL , lanc
+sp05a60 , /u/sist/ctb/LLL , histcompl*
+sp05a69 , /u/sist/ctb/LLL , 000 (criar pasta 000 dentro de CTB)
+sp05a79 , /u/sist/arqm , Entrada de Itens
+sp05t46 , /u/rede/tmp/ , apHHMMSSUUUU
+sp05x46 , /u/rede/tmp/ , xpHHMMSSUUUU
+sp06a03 , /u/sist/arq/ , arquivos de exportação
+sp06a04 , /u/sist/LL/ , pluLL
+sp06a15 , /u/sist/arqm/ , Itens Negativos
+sp06a42 , /u/arq/ , 5 níveis
+sp06a43 , /u/sist/arqq/ , PDDMMAA
+sp06a53 , /u/sist/arq , arquivo de exportação
+sp06a58 , /u/sist/arq/ , Tabela de Preço
+sp06a59 , /u/sist/arq/ , Tabela de Preço por item (novo)
+sp06x59 , 
+sp06a66 , /u/rede/arqp/ (help)
+sp06a70 , /u/sist/arqm
+sp06a75 , /u/sist/arq/ , Parametros de Exportação
+sp06a82 , /u/sist/ctb/LLL/ , intrefAAMM , Log Datas Ja Integradas (Nova Integracao Contabil)
+sp06a87 , /u/sist/arq/ , Promoções Diversas
+sp06o87 , /u/sist/arqd/ , Dedo duro Promoções Diversas
+sp06a93 , /u/sist/arq/ , f4 , Pedido de forncedor/roma , Pedido de fornecedor / Gera novo formato
+sp06a96 , /u/arq/ , planoctAA :: AA: ano (plano de contas por ano)
+sp06a98 , /u/sist/arq/ , Rebaixamento de Preço
+sp06t19 , /u/sist/arqo/ , ob
+sp07a88 , /u/sist/arqv/ , cbAAMM
+sp10c07 , /u/rede/wms/ , R*
+sp14a01 , /u/sist/arqf/fiscimpAAMM
+sp14a25 , /u/sist/sped/ , Embalagens de produtos
+sp14a47 , /u/sist/sped , Cadastro de NCM
+sp14a50 , /u/rede/xml/xml,txt/ , nomexml.txt
+sp14a53 , /u/sist/arqf ,decretonf
+sp14a54 , /u/rede/arqp/ decretoncm
+sp14a56 , /u/sist/sped/ , Tabelas Fiscais , Apoio Fiscal
+sp14t09 , /u/sist/arqe/ , NO
+sp14t19 , /u/sist/arqe/ , AJ
+sp14t58 , /u/sist/arqe/ , RA
+sp16a02 , /u/sist/arqf/ , Controle de Credito de Icms do Ativo Permanente Movimentação
+sp01w10 , /u/sist/tmp (ww)
+sp14a58 , /u/sist/sped/     
+av01a36 , /u/rede/clientes/reqs/  (000000000)
+av01x02 , /u/sist/tmp
+sp01x35 , /u/sist/pro  e /u/sist/tmp
+va01a24 , /u/sist/loja/      log cupons não importados  (ni)
+va01a23 , /u/sist/loja        log cupons não importados (nc)
+sp06a59 , /u/sist/arq/ , Tabela de Preço por item (novo)
+sp01w04 , /u/rede/notas  /u/rede/perdas/lojas
+sp01r04 , /u/
+sp01r49 , /u/rede/csvp , /u/rede/RETAG/ped
+sp01t09 , /u/sist/trb , (PF...)
+sp06a58 , /u/sist/arq/ , Tabela de Preço
+sp06a59 , /u/sist/arq/ , Tabela de Preço por item (novo)
+sp06a04 , /u/sist/LL/ , plu
+va01t11 , item dentro do cupom 
+sp06a75 , /u/sist/arq/ , Parametros de Exportação
+pluLL , tabela pdv /u/sist/loja
+sp01t10 , matar RQ* /u/sist/trb e tmp 
+sp06a87 , sist/arq           promoçẽos diversas 
+sp06o87 , sist/arqd      dedo duro promoções diversas 
+va01a20 , /u/sist/arqv/    , cadLLLAAMM
+sp04a27 , peAAMM /u/sist/arqm
+sp08a01 , mix de lojas     /u/sist/arq
+sp01t13 , pedidos de cliente  					../sist/trb   PCLLUUUUCCCC
+av01a01  , Tabela de Sistemas                                       , /u/arq01a02  , Tabela de Rotinas                                                     , /u/arq
+av01a03  , Atendimentos                                             , /u/sist/arq
+av01a04  , Agendamento                                              , /u/sist/arq
+av01a05  , Visitas                                                  , /u/sist/arq
+av01a06  , Tabela de Justificativas                                 , /u/sist/arq
+av01a07  , Dados Complementares de Clientes                         , /u/sist/arq
+av01a08  , Contatos de Clientes                                     , /u/sist/arq
+av01a09  , Observacoes de Clientes                                  , /u/sist/arq
+av01a10  , Informativo                                              , /u/sist/arq
+av01a11  , Programas                                                , /u/sist/arq
+av01a12  , Funcionarios                                             , /u/sist/arq
+av01a13  , Classificacao de Servicos                                , /u/sist/arq
+av01a14  , Status Ordem de Servico                                  , /u/sist/arq
+av01a15  , Movimento de Status da OS                                  , /u/sist/arq
+av01a16  , Ordem de Servico                                         , /u/sist/arq
+av01a17  , Descricao da Ordem de Servico                            , /u/sist/arq
+av01a18  , Atividades ocorridas com a Ordem de Servico       , /u/sist/arq
+av01a19  , Programas relacionados na Ordem de Servico        , /u/sist/arq
+av01a20  , Justificativas relacionadas na Ordem de Servico      , /u/sist/arq
+av01a21  , Resumo da Ordem de Servico                                , /u/sist/arq
+av01a22  , Tabela de Controle de Copias do Sistema               , /u/arq
+av01a23  , Tabela Movimentacao Controle de Copias Instalacao   , /u/arq
+av01a24  , Tabela Movimentacao Controle de Copias Atualizacao  , /u/arq
+av01a25  , Tabela de Atualizacao                               , /u/arq
+av01a26  , Tabela de Clientes x Rotinas                        , /u/arq
+av01a27  , Tabela Movimentacao Clientes/Equipamentos           , /u/arq
+av01a28  , Tabela de Historico do Atendimento                  , /u/arq
+av01a29  , Tabela de Nomes de Tabelas Cobol/Mysql              , /u/arq
+av01a30  , Consulta/Atualizacao Limite,Frente Avanco (Leitura) , /u/rede/clientes/reqs
+           (llccssssss) LL,Loja  CC,Caixa  SSSSSS,Sequencial
+av01a31  , Consulta/Autalizacao Limite,Frente Avanco (Gravac.) , /u/rede/clientes/resp 
+           (llccssssss) LL,Loja  CC,Caixa  SSSSSS,Sequencial  
+av01a32  , Log de Utilizacao do Sistema                        , /u/arqh
+av01a33  , Log de Usuario no Sistema (utaammdd)                , /tmp , /u/rede/RETAG/20
+av01a34  , Cupons fiscais                                      , /u/rede/RETAG/aaaammdd
+av05a50  ,  
+cc02a00  , Saldo de Conta , Conciliado                         , /u/sist/arqb
+cc02a01  , Contas Bancarias                                    , /u/sist/arqb
+cc02a02  , Saldo do Banco                                      , /u/sist/arqb
+cc02a03  , Lancamentos Bancarios (lbmmaa)                      , /u/sist/arqb
+cc02a04  , Contra Partida , Tipo                               , /u/sist/arqb
+cc02a05  , Extrato Bancario (exmmaa)                           , /u/sist/arqb
+cc02a06  , Composicao do Saldo                                 , /u/sist/arqp
+cc02a07  , Fechamento de Caixa Temporario                      , /u/sist/arqp
+cc02a08  , Bloqueio Movimentacao Financeira                    , /u/sist/arqb
+cc02a09  , Saldo do Banco Conciliado                           , /u/sist/arqb
+cc02a10  , Arquivo Remessa Bradesco                            , /u/sist/arqb
+cc02a11  , Tabela Debito/Credito Fornecedor/Cliente            , /u/sist/arqb
+           Chave: cgc+sequencial
+cc02a12  , Debito/Credito Fornecedor/Cliente/Filial (dfaamm)   , /u/sist/arqb
+           Chave: cgc+sequencial+documento+movimento 
+cc02a13  , Saldo de Debito/Credito Fornecedor/Cliente          , /u/sist/arqb
+cc02e01  , Contas Bancarias                                    , /u/sist/trb
+cc02e02  , Saldo do Banco                                      , /u/sist/trb
+cc02e03  , Lancamentos Bancarios                               , /u/sist/trb
+cc02t03  , Lancamentos Bancarios , Temporario                  , /u/sist/tmp
+cc02t05  , Extrato Bancario , Arquivo de Trabalho              , /u/sist/trb 
+on01a01  , Compras Clientes ON,LINE , Limite (claammdd)        , /u/sist/arqo
+pr01a01  , Tabela de Programas (F6:Usuarios)                   , /u/arqh
+pr01a02  , Tabela de Usuarios  (F6:Usuarios)                   , /u/arqh 
+pr01a03  , Tabela de Impressoras (F4:Utilitarios)              , /u/arqh 
+pr01a04  , Numero de Linhas por Relatorio (F6:Usuarios)        , /u/arqh 
+pr01a05  , Tabela de Usuarios Logados                          , 
+pr01a06  , Perfil de Usuarios (F6:Usuarios)                    , /u/arqh
+pr01a07  , Caracteres de Impressora (Representante,Hudson)     , /u/arqh
+pr01a10  , tabela cadastro de impressora
+pr01a14  , usuários , /u/arqh
+rc02a21  , Entrada de Itens                                    , /u/sist/arqm
+sp01a00  , Parametros da Loja                                , /u/sist/arq
+sp01a01  , Tabela de Lojas                        , /u/sist/arq
+sp01a02  , Tabela de Setor/Secao/Grupo/Subgrupo                , /u/arq
+sp01a03  , Cadastro de Produtos                        , /u/arq
+sp01a04  , Ficha Financeira do Produto                    , /u/sist/arq
+sp01a05  , Cadastro de Clientes                        , /u/arq
+sp01a06  , Inventario Gerencial                        , /u/sist/arq
+sp01a07  , Contas a Pagar                        , /u/sist/arq
+sp01a08  , Plano de Contas Gerencial                    , /u/arq
+sp01a09  , Pedido de Fornecedor                        , /u/sist/arq
+sp01a10  , Movimentacao de entrada e saida     (mvaamm)        , /u/sist/arqm
+sp01a11  , Indices Financeiros                            , /u/arq
+sp01a12  , Cadastro de Pesquisa de Precos                 , /u/sist/arq
+sp01a13  , Pedido de Cliente                         , /u/sist/arq , /u/sist/paf
+sp01a14  , Estoque e Pedido de Filiais                     , /u/sist/arq
+sp01a15  , Ficha Estatistica do Produto                    , /u/sist/arq
+sp01a16  , Contas a Receber                        , /u/sist/arq
+sp01r16  , baixa de lançamento                     /u/sist/arqp/ , sp01r16
+sp01a17  , Cadastro de Fornecedor                    , /u/arq
+sp01a18  , Vinculacao Plano+Forma do Frente com Tipo Gerencial , /u/arq
+sp01a19  , Mensagem de Produtos (Descricao Expandida)          , /u/arq
+sp01a20  , Alteracao de Precos Programada                      , /u/sist/arq
+sp01a21  , Cadastro de Vendedores                    , /u/sist/arq
+sp01a22  , Codigo de Barra (ean) do produto                , /u/arq
+sp01a23  , Tabela de Situacao Cliente/Fornecedor               , /u/arq
+sp01a24  , Cadastro de OS (Ordem de Servico)                , /u/sist/arqv
+""
+sp01a25  , Tabela de Produto/Fornecedor                    , /u/arq
+sp01a26  , Observacoes Fornecedores                        , /u/arq
+sp01a27  , Cadastro de Compradores                    , /u/sist/arq
+sp01a28  , Setor/Consumo do Produto                    , /u/arq
+sp01a29  , Tabela de Mensagens para Nota Fiscal                , /u/arq
+sp01a30  , Linha do produto/Compradores                    , /u/arq
+sp01a31  , Mensagem Boleto Bancario                    , /u/arq
+sp01a32  , Tabela de Precos do Fornecedor                , /u/sist/arq
+sp01a33  , Tabela de Atividades                        , /u/arq
+sp01a34  , Cadastro de Transportadoras                    , /u/arq
+sp01a35  , Tabela de Promocao de Precos                    , /u/sist/arq
+sp01a36  , Referencia de Clientes                    , /u/arq
+sp01a37  , Romaneio (Pre,Pedido)                    , /u/sist/arq
+sp01a38  , Tabela de Bancos                        , /u/arq
+sp01a39  , Empresas para Referencias                    , /u/arq
+sp01a40  , Contas Bancarias de Clientes                    , /u/arq
+sp01a41  , Contas Bancarias de Fornecedores                , /u/arq
+sp01a42  , Registro de Cheque sem Fundo                    , /u/arq
+sp01a43  , Tabela de Cidades                            , /u/arq
+sp01a44  , Grade de Produtos                         , /u/arq
+sp01a45  , Plano de Pagamento                        , /u/arq
+sp01a46  , Coleta de Precos                        , /u/sist/arq
+sp01a47  , Tabela de Servicos                        , /u/sist/arq  /u/rede/RETAG/ped
+sp01a48  , Cadastro do Pre,Pedido                    , /u/sist/arq
+sp01a49  , Cadastro Tabela de Fornecedor , Pre,Pedido          , /u/sist/arq
+sp01a50  , Cadastro de Estoque por Loja  , Grade               , /u/sist/arq
+sp01a51  , Estatistica , Grade                        , /u/sist/arq
+sp01a52  , Tabela de Meses Bloqueados no Fiscal                , /u/arq
+sp01a53  , Troca de Produtos                        , /u/sist/arq
+sp01a54  , Licitacao de Vendas                                 , /u/sist/arq
+sp01a55  , Tributacao dos Estados                        , /u/arq
+sp01a56  , Digitacao de Cheques (Retes)                 , /u/siist/arq
+sp01a57  , Agencias Bancarias                        , /u/arq
+sp01a58  , Historico Clientes , Pronta Entrega                 , /u/arq
+sp01a59  , Tabela de Cep do Correio                            , /u/arq
+sp01a60  , Acompanhamento Consulta CCF (Banco Central)         , /u/ccf
+sp01a61  , Boletim de Saida                                    , /u/sist/arq
+           Quantidade Transf,Devolu,Consumo,Outras,Vendas 
+sp01a62  , Boletim de Entrada                        , /u/sist/arq
+sp01a63  , Acompanhamento do Cheque sem Fundo                  , /u/arq
+sp01a64  , Coleta de Precos                          , /u/sist/arq
+           Gerada a partir do Pedido Deposito Central P/Periodo 
+sp01a65  , Tabela de Classificacao Fiscal                      , /u/arq
+sp01a66  , Escritorios de Cobranca                             , /u/sist/arq
+sp01a67  , Movimento de Cobranca para Escritorio de Cobranca   , /u/sist/arq
+sp01a68  , Local de Cobranca/Entrega                           , /u/arq
+sp01a69  , Reposicao Salao (Quantidade)                        , /u/sist/arq
+sp01a70  , Roteiro de Entrega Motorista                        , /u/sist/arqp
+sp01a71  , Empresas Conveniadas                                , /u/arq
+sp01a72  , Itens Vendidos com Preco Alterado (praamm)          , /u/sist/arqd
+           Chave: Dia+Item+Docto+Vendedor+Loja
+sp01a73  , Itens Vendidos com Preco Alterado (pdaamm)          , /u/sist/arqd
+           Chave: Dia+Docto+Loja 
+sp01a74  , Coleta de Preco Modelo 1                            , /u/sist/arq
+           Chave: Coleta+Fornecedor+Item+Grade 
+sp01a75  , Coleta de Preco Modelo 1                            , /u/sist/arq
+           Chave: Coleta+Loja+Item+Grade 
+sp01a76  , Clientes que nao compram a mais de xxx dias         , /u/sist/arq
+sp01a77  , Preco de Venda por Grupo de Lojas                   , /u/sist/arq
+sp01a78  , Itens por Estado com Substituicao Tributaria        , /u/sist/arq
+sp01a79  , Caderno de Compras                                  , /u/sist/arq
+sp01a80  , Tabela de Operadoras de Caixa                       , /u/sist/arqv 
+sp01a81  , Varios Precos (est025,est026)                       , /u/sist/arq
+qsp01a82  , Controle de Vasilhame                               , /u/sist/arq
+sp01a83  , Itens nao comprados a mais de 180 dias              , /u/arq
+sp01a84  , Itens nao comprados abaixo do estoque minimo        , /u/arq
+sp01a85  , Itens nao comprados c/varias faixas de dias (pdxxx) , /u/sist/arqd  
+sp01a86  , Itens por estado com desconto (ret007,cba753)       , /u/sist/arq
+sp01a87  , Pontuacao por Item (Letra ou Numero)                , /u/arq
+sp01a88  , Tributacao do Item (pre700,pre701,pre702)           , /u/arq
+sp01a89  , Produto com Desconto Especial                       , /u/sist/arq
+sp01a90  , Cadastro de Firmas , Auto Pecas                     , /u/sist/arq
+sp01a91  , Cadastro de Produtos , Auto Pecas                   , /u/sist/arq
+sp01a92  , Movimento Lojas Retes sem ECF (lojaixx)             , /u/sist/trb
+sp01a93  , Movimento de Reposicao                              , /u/sist/trb
+sp01a94  , Movimento para Reposicao de Mercadorias             , /u/sist/arqm
+sp01a95  , CCF,SIA Banco Central                               , /u/ccf
+sp01a96  , CCF,SIA Log de Atualizacao                          , /u/ccf
+sp01a97  , Arquivo Apoio Plandados (Contabilidade)             , /u/sist/arqa
+sp01a98  , Classifica Movimento por Cliente (kcliaamm)         , /u/sist/arqa
+sp01a99  , Balancete Geral Contas a Pagar/Receber (spr261)     , /u/arq
+sp01a10  , Cadastro de Artigos                                 , /u/arq
+sp01b07  , Contas a Pagar: temporario (sphhmmss)               , /u/sist/tmp
+sp01b12  , Cadastro de Pesquisa de Preco: temporario           , /u/sist/tmp
+sp01b16  , Contas a Receber: Trabalho                          , /u/sist/arq
+sp01c01  , Chave de Filial (usado para reorganizar arquivos)   , /u/arq
+sp01c03  , Chave de Produto (usado para reorganizar arquivos)  , /u/rede/trb , /u/rede/integral/invest/   
+sp01c05  , Tabela de Clientes Numero do Cartao                 , /u/arq
+sp01c07  , Cancelamento de Ordem de Pagamento                  , /u/arq
+sp01c09  , Pedido de Fornecedor: Trabalho                      , /u/sist/trb 
+sp01c16  , Remessa de Cheque , Contas a Receber                , /u/sist/arq
+sp01d00  , Dedo Duro de Parametros                             , /u/sist/arqd
+sp01d03  , Dedo Duro Cadastro de Produtos                      , /u/sist/arqd
+sp01d04  , Dedo Duro Ficha Financeira                          , /u/sist/arqd
+sp01d05  , Dedo Duro Cadastro de Clientes                      , /u/sist/arqd
+sp01d07  , Dedo Duro Contas a Pagar                            , /u/sist/arqd
+sp01d10  , Dedo Duro Movimentacao de Entrada e Saida           , /u/sist/arqd
+sp01d13  , Dedo Duro Pedido de Cliente                         , /u/sist/arqd
+sp01d16  , Dedo Duro Contas a Receber                          , /u/sist/arqd
+sp01d17  , Dedo Duro Cadastro de Fornecedor                    , /u/sist/arqd
+sp01d25  ,       /u/javascript/req/systax
+sp01d42  , Dedo Duro Cheque sem Fundo                          , /u/sist/arqd
+sp01f16  , Espelho do contas a receber (sp01a16)               , /u/sist/arq
+sp01k16  , Arquivo do Auxiliar contas a receber                , /u/sist/arq 
+           (Classifica contas a Receber p/clientes)
+sp01v03  , Pesquisa Avancada de produto                        , /u/arq
+sp01v05  , Pesquisa Avancada de clientes                       , /u/arq
+sp01x05  , Cadastro de Clientes                                , /u/arq
+           Classificado por Fornecedor e Rota 
+sp01y05 , Vendedor , Cliente    u/arq/
+sp01x35  , Arquivo Temporario Promocao de Preco (praammdd)      ,/u/sist/pro
+sp01x62  , Boletim de Entrada , Negociacao (aammdd)             , /u/sist/trb 
+sp01x77  , Preco de Venda por Grupo , Excluidos                 , /u/sist/arqd
+sp01p03  , Pre,cadastro de produtos                             , /u/sist/arqa 
+sp01z03  , Arquivo Auxiliar de Produtos                         , /u/sist/arqa
+sp01w04  , Arquivo temporario da ficha (wehhmmss)               , /u/sist/tmp
+sp01w08  , Arquivo Temporario de Plano de Contas (txHORA)       , /u/sist/tmp
+sp02a01  , Bonificacao , Valor                                  , /u/sist/arq
+sp02a02  , Romaneio , Pedido das Lojas                          , /u/sist/arq
+sp02a03  , Tipos de Conta , Previsto e Realizado                , /u/arq
+sp02a04  , Bonificacao , Itens                                  , /u/sist/arq
+sp02a05  , Equivalencia de Precos                               , /u/arq
+sp02a06  , Pessoas Autorizadas a Comprar                        , /u/arq
+sp02a07 sp02k07  , Produtos com o mesmo Preco de Venda (Pr.Iguais)      , /u/sist/arq
+sp02a08  , Cheques com Registro no SERASE e SPC                 , /u/arq
+sp02a09  , Tabela de Produtos Barros (Sutak)                    , /u/arq
+sp02a10  , Quantidade estoque por loja/ano/mes/dia (esaammdd)   , /u/sist/estd
+sp02a11  , Grupo de Lojas                     , /u/arq
+sp02a12  , Tabela de Marcas                      , /u/arq
+sp02a13  , Log de Atualizacao Automacao (Envio para Denver)     , /u/sist/arqp
+sp02a14  , Classifica Arquivo Movto por Cliente (mv?? e ve??)   , /u/sist/arqv
+sp02a15  , Pre,Pedido para Frete de Loja , Venda Cliente        , /u/sist/arq
+sp02a16  , Complemento de Icms Movto Entrada/Saida (cpaamm)     , /u/sist/arqm 
+sp02a17  , Cadastro de Vasilhame                 , /u/sist/arq
+sp02a18  , Controle de Entrega de Mercadoria                    , /u/sist/arq
+sp02a19  , Nivel de Vendedor                                    , /u/arq
+sp02a20  , Venda por Plano , Balcao , Macdel (vbaamm)           , /u/sist/arqv
+sp02a21  , Log de Entrada de Itens                              , /u/sist/arqm
+sp02a22  , CCF,SIA Resumido (cgc + tipo)                        , /u/ccf
+sp02a23  , Fechamento Tesouraria Loja                           , /u/sist/arqp
+sp02a24  , Preco por Cliente                                    , /u/arq
+sp02a25  , Itens para Composicao do Produto Final               , /u/arq
+sp02a26  , Texto para Itens de Composicao                       , /u/arq
+sp02a27  , Producao , Item Final                                , /u/arq
+sp02a28  , Fornecedores Vinculados                              , /u/arq
+sp02a29  , Liberacao Fornecedor por Dia                         , /u/arq
+sp02a30  , Log de Atualizacao Denver (Estrela Dalva)            , /u/arq
+sp02a31  , Log de Atualizacao Importacao Frente de Loja         , /u/sist/arqp   
+sp02a32  , Tabela de Fornecedor (imagem sp01a32)                , /u/sist/arq
+sp02a33  , Tipo de Conta para Disponibilidade Bancaria          , /u/arq
+sp02a34  , Credito de Cliente                                   , /u/sist/arq
+sp02a35  , Credito de Cliente , Observacao                      , /u/sist/arq
+sp02a36  , Debito de Fornecedor , Observacao                    , /u/sist/arq
+sp02a37  , Debito de Fornecedor , Pedido                        , /u/sist/arq
+sp02a38  , Arquivo Vinculacao com Denver                        , /u/arq
+sp02a39  , Observacao                                           , /u/arq 
+           sp01m05 , Clientes                        
+           sp01m17 , Fornecedores 
+           sp01m44 , Equipamentos 
+           sp02m45 , Chamados
+           av01m03 , Atendimento Avanco 
+           av01m10 , Informativo Avanco 
+sp02a40  , Empresas Convenio/Clientes                           , /u/arq             
+sp02a41  , Bordero de Pagamento                                 , /u/sist/arqp
+           sp02p41 , Contas a Pagar 
+           sp02r41 , Contas a Receber 
+           sp02c41 , Consolidacao Contas a Pagar 
+           sp02e41 , Consolidacao Contas a Receber 
+sp02a42  , CCF,SIA Versao2                                      , /u/ccf
+sp02a43  , Vinculacao Tipo,Conta / Conta,Tipo                   , /u/arq
+sp02a44  , Tabela de Equipamentos/Bens Patrimoniais (Liza)      , /u/arq 
+           Controle de Chamados
+sp02a45  , OS Chamados , Corpo da Chamada                       , /u/arq
+sp02a46  , Inventario Temporario Varias Digitacoes (inventll)   , /u/sist/arqi
+sp02a47  , Arquivo Vinculado com a ICRED                        , /u/arq
+sp02a48  , Tabela Local Inventario Varias Digitacoes            , /u/sist/arqi
+sp02a49  , Itens a Distribuir da Coleta de Precos               , /u/arq
+sp02a50  , Baixa Parcial Contas a Receber (Origem/Complemento)  , /u/sist/arqp
+sp02a51  , Tabela de Vinculacao de Equipamentos (Liza)          , /u/arq
+           Controle de Chamados 
+sp02a52  , Observacoes dos Bens Patrimoniais (Liza)             , /u/arq
+sp02a53  , Locais dos Bens Patrimoniais (Liza)                  , /u/arq
+sp02a54  , Itens das Chamadas (Liza)                            , /u/arq
+sp02a55  , Observacoes das Chamadas (Liza)                      , /u/arq
+sp02a56  , Cadastro de Funcionarios / Tecnicos (Liza)           , /u/arq
+sp02a57  , Historico das Chamadas (Liza)                        , /u/arq
+sp02a58  , Arquivo de Liberacao de Nota,Pedido,Fornecedor       , /u/arq
+sp02a59  , Giro das 8 Ultimas Semanas                           , /u/arq
+sp02a60  , Entrada de Itens em Dolar                            , /u/sist/arqm
+sp02a61  , Arquivo de Liberacao (Variacao Maxima Permitida      , /u/arq 
+           entre Preco de Entrada com Preco Ultima Entrada 
+sp02a62  , Movimento Itens Genericos                            , /u/arq
+sp02a63  , Valor Calorico , Peso dos Produtos                   , /u/arq
+sp02a64  , Item para Composicao de Valores Caloricos Produtos   , /u/arq
+sp02a65  , Composicao de Valores Caloricos de Produtos          , /u/arq
+sp02a66  , Produto Numero de Serie para Emprestimo              , /u/sist/arqm
+sp02a67  , Registro Log de Envio de Titulos para SERASA         , /u/sist/arqb
+sp02a68  , Registro Envio de Titulos para SERASA                , /u/sist/arqb
+sp02a70  , Arquivo Temporario Distribuicao Romaneio (diaammdd)  , /u/arqp                        
+sp02a71  , Registro Primario Movimentacao Entrada e Saida       , /u/sist/arqp
+sp02a72  , Arquivo de Liberacao de Nota,Pedido,Fornecedor       , /u/arq
+sp02a73  , Tabela de Motoristas                                 , /u/arqp
+sp02a74  , Coleta Novo Modelo Item (ciaammdd)                   , /u/arqp
+sp02a75  , Coleta Novo Modelo Fornecedor,Item (cfaammdd)        , /u/arqp
+sp02a76  , Coleta Novo Modelo Loja,Item (claammdd)              , /u/arqp
+sp02a77  , Quantidade em Estoque por Loja Ano/Mes (esaamm)      , /u/sist/arqi
+sp02a78  , Log de Atualizacao do Balanco Gerencial por Loja     , /u/sist/arqi
+sp02a79  , Vinculacao de Clientes                               , /u/arq
+sp02a80  , Incidencia de Pis                                    , /u/arq
+sp02a81  , Fornecedor , Fazenda , Cooperativa                   , /u/arq
+sp02a82  , Fornecedor , Fazenda , Cooperativa (Resumido)        , /u/arq
+sp02a83  , Vales Funcionario                                    , /u/sist/arq
+sp02a84  , Vales Funcionario , Itens                            , /u/sist/arq
+sp02a85  , Produto Numero de Serie                              , /u/arq
+sp02a86  , Log Movimentacao por Numero de Serie                 , /u/sist/arqm
+sp02a87  , Tabela de Referencia entre:                          , /u/arq
+           Codigo de Produto, Sistema Pick e Avanco
+sp02a88  , Tabela de Municipios                                 , /u/arq
+sp02a89  , Tabela de Laboratorios                               , /u/arq
+sp02a90  , Tabela de Adquirentes (Esmeraldas)                   , /u/arq
+sp02a91  , Tabela de Tributacao ECF                             , /u/arq
+sp02a92  , Tabela de Codigos Tributacao                         , /u/arq
+           Cooperativa de Esmeraldas
+sp02a93  , Tabela de Tributacao Produto x Codigo Tributacao     , /u/arq
+           Cooperativa de Esmeraldas 
+sp02a94  , Tabela de Tributacao por Adquirente                  , /u/arq
+           Cooperativa de Esmeraldas 
+sp02a95  , Tabela de Condicao de Pagamento                      , /u/arq
+           Cooperativa de Esmeraldas 
+sp02a96  , Tabela de Tipo de Cliente                            , /u/arq
+           Cooperativa de Esmeraldas 
+sp02a97  , Auxiliar de Clientes                                 , /u/arq
+           Cooperativa de Esmeraldas 
+sp02a98  , Monta Carga                                          , /u/sist/arqp
+sp02a99  , Arquivo Temporario para Distribuicao                 , /u/sist/arqp
+           Placa e Carga (mcddmmaa)    
+sp02z01  , Bonificacao , Valor                                    , /u/sist/arqa
+sp02e74  , /u/javascript/resp/
+sp03a01  , Livro Fiscal de Entrada (lellmmaa)                   , /u/sist/arqf
+sp03a02  , Livro Fiscal de Saida (lsllmmaa,antigo)              , /u/sist/arqf
+           Sapataria Americana
+sp03a03  , Tabela de Codigos Fiscais 3 digitos                  , /u/sist/arqf
+sp03a04  , Tabela de Codigos Fiscais , Valores Mensais          , *****
+sp03a05  , Tabela de Codigos Fiscais , Contabilidade            , /u/sist/arqf
+sp03a06  , Plano de Contas Contabil                             , /u/sist/arqf
+sp03a07  , Arquivo de Apoio para Apuracao do Icms               , /u/sist/arqf 
+\cf1 sp03d07 ,  Usado como Apoio para Exportacao DAPI     sist/arqf\cf0
+sp03a08  , Integracao Comercial/Fiscal                          , /u/sist/arqf
+sp03a09  , Arquivo de Tributacao (0,Sicre,Yanco 1,Dataregis)    , /u/sist/arqf
+sp03a10  , Livro Fiscal Saida , Itens com ST (stllmmaa)         , /u/sist/arqf
+sp03a11  , Livro Fiscal Saida , ECF (fsllmmaa)                  , /u/sist/arqf
+sp03a12  , Credito de Icms Ativo Permamente CIAP (cillaamm)     , /u/sist/arqf
+sp03a13  , Tabela de Codigos Fiscais 4 digitos                  , /u/sist/arqf
+sp03a14  , Livro Fiscal , Registro Tipo 88A,Auxiliar (opllaamm) , /u/sist/arqf 
+sp03a15  , Arquivo Fiscal Auxiliar Anexo VII                    , /u/sist/arqf
+sp03a16  , Tabela de Codigo Classificador Contabil              , /u/sist/arqf
+sp03a17  , Cheque de Terceiros                                  , /u/sist/arq
+sp03a20  , Digitacao do ZZ (zzllaamm)                           , /u/sist/arqf                     
+sp03a21  , Nota de Entrada (enllaamm)                           , /u/sist/arqf
+sp03a22  , Nota de Saida (sallaamm)                             , /u/sist/arqf
+sp03a23  , Mapa Resumo ECF (mpllaamm)                           , /u/sist/arqf
+sp03a24  , Tabela de Codigos Fiscais , Contabilidade Remix      , /u/sist/arqf
+sp03a25  , Apoio para Exportacao Remix , Apuracao (apaammll)    , /u/sist/arqf
+sp03a26  , Livro Fiscal de Entrada 2 Parte (cellaamm)           , /u/sist/arqf
+sp03a27  , Tabela de Dias Bloqueado no Fiscal                   , /u/arq
+sp03a28  , Livro Fiscal Saida com e sem Pis/Cofins (pcllaamm)   , /u/sist/arqf
+sp03a29  , Lay,out Estoque On,Line (voaammdd)                   , /u/sist/vdia
+sp03a30  , Bloco de Notas                                       , *****
+sp03a31  , Contas a Pagar , Pagamento Escritural , Bradesco     , /u/arq 
+sp03a32  , Plano de Contas                                      , /u/arq
+sp03a33  , Contas a Pagar , Classificados por Conta Contabil    , *****
+sp03a34  , Vinculacao Plano de Contas Gerencial/Contabil        , /u/arq
+sp03a35  , Aliquotas , Arquivo para Mapa Resumo ECF (alllaamm)  , /u/sist/arqf
+sp03a36  , Apoio Importacao Frente Avanco (ipllaamm)            , /u/sist/arqf 
+           Valor com incidencia de Pis
+sp03a40  , Quantidade por Loja , Ano/Mes                        , /u/sist/arq
+sp03a44  , Arquivo Produtos com ST em 30/11/05 , Decreto 44147  , /u/sist/arq
+sp03a50  , Controle Recebimento NF (Diferenca Desconto)         , /u/sist/arq
+sp03a51  , Arquivo com campos de Indice do DAPI                 , /u/sist/arq
+sp03a57  Tabela classificacao fiscal/cfop/movimentacao     sist/arqi/
+sp03a60 \endash  Arquivo de movimento novo \endash  Totais da nota (sped)     sist/arqf/fiscAAMM
+        sp03g60
+sp03a61 \endash  Fiscal novo (sped)                       sist/arqf/fiscalAAMM
+sp03a69 , Arquivo de movimento novo Itens da nota (sped)        sist/arqf/fiscitAAMM
+\lang1023 sp03a62  , Tabela do Dapi para Exportacao               sist/arqf/daLLDFAAMMDIRG.
+                LL => filial         
+                DF =>dia final           
+                AA => ano            
+                MM => mes            
+                DI => dia inicial           
+                RG => registro       
+sp03a66 , ARQUIVO DE MOVIMENTACAO DE NF , Financeiro     sist/arqf/fiscfatAAMM
+\cf0 sp03a70  , Previsao Faturamento (Calculo 65 e 66 Graffite)      , /u/sist/arqf
+\cf1 sp03a76 , Arquivo com campos DAPI do registro 10     sist/arqf\lang1046
+sp03a78 \endash  Modelos de documentos fiscais sist/sped/sp03a78
+\lang1023 sp03a80 ,  complemento do sp01a01 par\'e2metros de loja      /u/arq/
+\cf0 sp03a87 , Pedido de venda tempor\'e1rio , Coletor
+sp03a89  , Ficha Estatistica , venda liquida                    , /u/sist/arq 
+sp03m60  , /u/rede/nfe/LL/local/mensagem
+sp04a01  , Registro de Comissoes                                , /u/sist/arqv
+sp04a02  , Registro de Lancamentos de Convenios                 , /u/sist/arqv
+sp04a03  , Autorizacao de Compras                               , /u/sist/arq
+sp04a46  , Operadoras de Caixa                                  , /u/sist/arqv
+sp04a10  , Tabela de Locais dos Produtos                        , /u/sist/arq
+           Modulo: Distribuicao de Itens no Estoque (Hudson) 
+sp04a12  , Tabela de Estoque de Itens por Locais                , /u/sist/arq
+           Modulo: Distribuicao de Itens no Estoque (Hudson)
+sp04a13  , Movimento de Produtos por Locais no Estoque (diaamm) , /u/sist/arqm
+           Movto.: 01 , Compra ECN 
+                   02 , Compra ECNS
+                   03 , Compra ECS 
+                   07 , Devolucao de Clientes 
+                   20 , Requisicao Salao 
+                   30 , Devolucao para Deposito
+           Moduldo: Distribuicao de Itens no Estoque (Hudson)
+sp04a14  , Requisicao de Itens para Deposito , Sugestao         \lang1046    \lang1023 , /u/sist/arq
+           De varios locais do deposito para unico local salao
+           Modulo: Distribuicao de Itens no Estoque (Hudson) 
+sp04a15  , Movimento de Itens Baixados no Estoque (sp01a04)     , /u/sist/arq 
+           De varios locais do deposito para unico local salao
+           Espelho do sp04a14
+           Modulo: Distribuicao de Itens no Estoque (Hudson) 
+sp04a16  , Devolucao de Itens do Salao para Deposito            , /u/sist/arq
+           Um local salao para varios locais deposito   
+           Modulo: Distribuicao de Itens no Estoque (Hudson)
+sp04a17  , Movimento de Itens Baixados no Estoque (sp01a04)     , /u/sist/arq
+           Devolucao de um local salao p/varios locais deposito
+           Espelho do sp04a16
+           Modulo: Distribuicao de Itens no Estoque (Hudson) 
+sp04a18  , Distribuicao de Devolucao de Itens do Salao,Deposito , /u/sist/arq 
+           Um local salao para varios locais deposito
+           Gerado pelo programa: dis044.cbl
+           Chave: loja+req+item+local+localdep 
+           Modulo: Distribuicao de Itens no Estoque (Hudson) 
+sp04a19  , Distribuicao de Devolucao de Itens do Salao,Deposito , /u/sist/arq  
+           Um local salao para varios locais deposito 
+           Gerado pelo programa: dis044.cbl
+           Chave: loja+req+item+local
+           Modulo: Distribuicao de Itens no Estoque (Hudson) 
+sp04a20  , Arquivo de Digitacao de Inventario                   , /u/sist/arq 
+           Modulo: Distribuicao de Itens no Estoque (Hudson) 
+\cf1 sp04a24 , Cidade , SP01A43 X SP04A21 , IBGE , /u/sist/arqf/sp04a24
+\cf0 sp04a30  , Tabela de Inventario por Locais                      , /u/sist/arq
+           Modulo: Distribuicao de Itens no Estoque (Hudson) 
+sp04a31  , Agenda Fornecedor (Visita/Cancelamento)              , /u/arq
+sp04a32  , Tabela de Estoque de Itens por Locais Destino/Origem , /u/sist/arq
+sp04a33  , Agenda Cliente                                       , /u/arq
+sp04a34  , Feirinha                          , /u/sist/arqp
+sp04a35  , Produtos Faturados Abaixo do Preco Minimo            , /u/sist/arqp
+           Inicio do Periodo (dcaammdd) 
+sp04a36  , Feirinha: Enviados (Em Transito)                     , /u/arqp 
+sp04a37  , Vinculacao Tipo,Tipo Tesouraria                      , /u/arq
+sp04a38  , Tabela de Forma de Pagamento , Contas a Pagar        , /u/arq
+sp04a39  , Tipo de Ocorrencia das Visitas                       , /u/arq
+sp04a40  , Arquivo Diario das Visitas dos Vendedores            , /u/arq
+sp04a41  , Tabela de Resultados , Venda por Telefone            , /u/arq
+sp04a42  , Registro de Agendamento de Clientes , Telemarketing  , /u/arq
+sp04a43  , Produtos Similares                                   , /u/arq
+sp04a44  , Mensagens entre Usuarios                             , /u/arq
+sp04a48  , Promocao de Precos Especial                          , /u/sist/arq
+sp04m44  , Conteudo da Mensagem entre Usuarios (sp02a39)        , /u/arq
+sp04x44  , Mensagens Excluidas entre Usuarios                   , /u/arq     
+sp04a53  , Pesquisa Precos Diaria = Header                      , /sist/arqpd
+sp04a64  , Grupo Financeiros                                    , /u/arq
+sp04a66  , Inventario Fiscal nova Versao (inaamm)               , /u/sist/arqi
+sp04a80  , CIAP                                                 , /u/sist/arqf         
+\cf1 sp04a81  , Controle de Credito de Icms do Ativo Permanente , Movimentacao              , /u/sist/arqf         
+\cf0 sp04a90  , Motoqueiros                                          , /u/arq
+sp04a98  , Tabela de vincula\   \'e3o de tipo TECGOL , SMART
+sp05a01  , Cadastro de Produtos Inventario Fiscal (ivpaamm)     , /u/sist/arqi
+sp05a02  , Cadastro de Estoque por Loja Inv.Fiscal (ivfaamm)    , /u/sist/arqi
+sp05a03  , Inventario Fiscal por Tributacao (ivtaamm)           , /u/sist/arqi
+sp05a04  , Cadastro de Produtos Inventario (ivaaamm) inv100.cbl , /u/sist/arqi
+sp05a05  , Cadastro de Estoque por Loja Inventario (iveaamm)    , /u/sist/arqi
+sp05a06  , Cadastro de Produto: Vr.Financeiro e Data (ipfaamm)  , /u/sist/arqi
+sp05a07  , Log Estoque Insuficiente,aut001 (EIaammdd)           , /u/sist/arqd 
+sp05a09  , Log Movimento por Fornecedor                         , /u/sist/arqm 
+sp05a16  , Tabela de GNRE , /u/sist/arqf/gnrenAAMM
+sp05a51  , Plano de conta contabil                              , /u/sist/ctb/000 , 001
+sp05a78  , Perfil/Tipo Gerencial                                , /u/arq
+sp05d63  ,                ../ctb/LL/ded/
+sp06a01  , Precos Alterados no Dia,Precos de Custos (pcaammdd)  , /u/sist/arq
+sp06a02  , Alteracao de Precos Programado                       , /u/sist/arq
+sp07a01  , Definicao Valor do Bonus + Premiacao (bd+promocao)   , /u/sist/arqp
+sp07a02  , Valor Acumulado do Bonus por Cliente (bc+promocao)   , /u/sist/arqp
+sp07a03  , Periodos para Promocoes Bonus                        , /u/sist/arqp
+sp07a04  , Resumo das Promocoes Bonus (br+promocao)             , /u/sist/arqp
+sp07a05  , Periodos ja Processados Bonus                        , /u/sist/arqp
+sp07a06  , Definicao Produtos p/Fornecedor Bonus (ba+promocao)  , /u/sist/arqp
+sp07a07  , Posicao Diaria Bonus Cliente na Promocao (bbaammdd)  , /u/sist/arqp
+sp07a08  , Ordem do Sorteio/Premios Bonus (or+promocao.txt)     , /u/sist/arqp 
+sp07a09  , Posicao de Bonus trocados pelos Clientes             , /u/sist/arqp
+sp07a10  , Indices para Promocoes Bonus (biaamm)                , /u/sist/arqp
+sp07a11  , Tabela de Premios para Troca Bonus                   , /u/sist/arqp
+sp07a12  , Tabela de Proposta de Adesao Cartao (Sales)          , /u/arq
+sp08a00  , Periodos para Hortifrut                              , /u/arq
+sp08a01  , Mix das Lojas                                        , /u/sist/arq
+sp08a02  , Inventario Hortifrut (h+grupo+aa+mm+dia)             , /u/sist/arqm
+sp08a03  , Peido do Hortifrut (m+grupo+aa+mm+dia)               , /u/sist/arqm
+sp08a10  , Cadastro Departamento/Setor Data Regis               , /u/arq
+sp08a11  , Cadastro de Operadores Data Regis                    , /u/arq 
+sp09a01  , Romaneio de Cargas e Quebras Hortifrut (xxxaamm)     , /u/sist/arqm
+sp09a03  , Descricao Padrao                                     , /u/arq
+sp09a04  , Romaneio Ceasa                                       , /u/arq
+sp09a05  , Pedido Central , Diario                              , /u/arq
+sp09a06  , Pedido Central Fornecedor                            , /u/arq
+sp09a07  , Itens Enviados Via Romaneio , Ceasa                  , /u/arq
+sp09a08  , Romaneio Ceasa , Hortifrut                           , /u/arq
+sp09a14  , Pedido Central , Item (piaammdd)                     , /u/arqp
+sp09a15  , Pedido Central , Fornecedor/Item (pfaammdd)          , /u/arqp
+sp09a16  , Pedido Central , Loja/Item (plaammdd)                , /u/arqp
+sp09a17  , Pedido Central , Arquivo de Bloqueio de Rotina       , /u/sist/arqp
+sp09a18  , Pedido Central , Extra Diario/Itens (elaammdd)       , /u/arqp
+sp10a01  , Tabela de Enderecos , Logistica                      , /u/sist/wms
+sp10a02  , Tabela de Produtos  , Logistica                      , /u/sist/wms
+sp10a03  , Tabela de Veiculos  , Logistica                      , /u/sist/wms
+sp10a04  , Tabela de Paletes   , Logistica                      , /u/sist/wms
+sp10a05  , Estoque p/Endereco  , Logistica                      , /u/sist/wms
+sp10a08  , Arquivo de bancao                                    , /u/sist/wms
+sp10a52  , Tabela de Tipos Deposito  , Logistica                , /u/sis/wms
+sp10t16  ,   /u/rede/wms/conf,entrada
+sp11a01  , Enderecamento Impressora por Loja/Secao              , /u/arq
+           Televendas e Frente Balcao da Momo Confeitaria  
+sp11a02  , Apoio Pedido Tele Vendas                             , /u/sist/arq
+sp11a03  , Arquivo de Historico Pos,Venda Rotina Delivery       , /u/sist/arq
+sp11a10  , Recebimento Hortifrut (hhaammdd)                     , /u/arqp
+sp12a01  , Tabela de Locais de Produtos (Logistica)             , /u/sist/log\lang1046
+\cf1 sp14a00 , Tabela de Par\'e2metros da Nota Fiscal Eletr\'f4nica          sist/sped/sp14a00
+sp14a02 , Tabela Situa\   \'e3o do Documento              sist/sped/sp14a02
+sp14a03 , Tabela G\'eanero do item de Mercadoria/Servico         sist/sped/sp14a03
+sp14a04 , Tabela de Paises                 sist/sped/sp14a04
+sp14a06 , Cadastro do Contabilista e/ou Signat\'e1rio.         sist/sped/sp14a06
+sp14a07 , Identifica\   \'e3o das unidades de medida         sist/sped/sp14a07
+sp14a08 , Tipo de Produto                 sist/sped/sp14a08
+sp14a09 , obsaamm , Observa\   \'e3o sped
+sp14a10 , Cadastro Auxiliar de produtos             sist/sped/sp14a10
+sp14a11 , Cadastro Auxiliar de clientes             sist/sped/sp14a11
+sp14a12 , Tabela Servi\   os                 sist/sped/sp14a12
+sp14a13 , Tabela CFOP x CST x COND.PAGAMENTO       sist/sped/sp14a13
+sp14a14 , Tabela de natureza da opera\   \'e3o             sist/sped/sp14a14
+sp14a15 , Tabela de dados adicionais (reg.0450) e observa\   \'e3o(reg.0460)
+                                   sist/sped/sp14a15
+sp14a16 , Cadastro Auxiliar de fornecedores.             sist/sped/sp14a16
+sp14a17 \endash  Cadastro de armas de fogo             sist/sped/sp14a17
+sp14a18 , Tabela de cupons fiscais \endash  ECF             sist/sped/sp14a18
+sp14a19 , Fiscal , NF itens , Ajustes e informa\   \'f5es de valores da nf especial
+                           sist/sped/ajitensAAMM
+sp14a21 \endash  tabela de al\'edquota ecf                 sist/sped/sp14a21
+sp14a22 , Tabela de obriga\   \'f5es a recolher             sist/sped/apuracoAAMM
+sp14a23 , Tipo de Consumo                 sist/sped/sp14a23
+sp14a24 , Fiscal , NF itens , Opera\   \'f5es com medicamentos     sist/sped/mediAAMM
+sp14a26 , Serie de Notas Fiscais.                 sist/sped/sp14a26
+sp14a27 , Ultima NF Eletr\'f4nica Emitida              sist/sped/sp14a27
+sp14a28 , Tabela Mensagens do Retorno da NF eletr\'f4nica         sist/sped/sp14a28
+sp14a29 , Tabela de LOG \endash  NF eletr\'f4nica             sist/sped/sp14a29
+\cf2 TABELAS DE APURA\'c7AO DO SPED 
+\cf1  \cf2 SP14A30 (Tab 5.1.1) Ajustes da apura\   \'e3o
+ SP14A31 (Tab 5.3) Ajustes provenientes do documento fiscal
+SP14A32 (Tab 5.5) Tipos de utilização do credito     sist/sped/sp14a32
+ SP14A33 (Tab 5.2) Informações adicionais
+ SP14A34 (Tab 5.4) Obrigacoes a recolher
+ SP14A35 (Tab 4.5.4) Ajustes da apura\   \'e3o DE IPI\cf1
+ 
+""
+sp14a40 , Cadastro de DNF
+sp14a41 , Arquivo Tempor\'e1rio para envio de informa\   \'f5es complementares                                   sist/tmp/cplmLLNF
+sp14a42 \endash  cadastro de NCM                 sist/sped/sp14a42
+sp14a43 \endash  cadastro de CNAE                 sist/sped/sp14a43
+sp14a44 \endash  Cadastro de inscri\   \'e3o estadual por estado
+sp14a45 \endash  Simples Nacional
+sp14a46 , Documentos fiscais utilizados             sist/sped/sp14a46
+sp14a51 \endash  Arquivo de log de reprocessamento do SPD313             sist/sped/logAAMM
+sp14a52 \endash  Arquivo de log de reprocessamento da Escritura\   \'e3o Fiscal Digital EFD001
+                         sist/sped/logspedAAMM
+sp14a57 , u/sist/arqf/ , fiscpag
+sp14a60 , Cadastro de Bens ou Componentes     sist/sped/sp14a60
+sp14a61 , Cadastro de Centro de Custos     sist/sped/sp14a61
+sp14a62 , CIAP , ICMS TOTAL         sist/sped/sp14a62
+sp14a99 \endash  arquivo de log de emiss\'e3o do sped fiscal         sist/sped/sp14a99
+sp15a01 , Cadastro do participante                 sist/sped/sp15a01
+sp15a04 , Conta referencial SEFAZ ../sist/sped
+sp15a06 , sist/sped/ , Cadastro do DNRC 
+sp15a08 , sist/ECD
+sp16a01 , Controle de Credito de Icms do Ativo Permanente         sist/arqf/sp16a01
+sp16a02 , Controle de Credito de Icms do Ativo Permanente , Movimentacao      sist/arqf/sp16a02
+sp16a03 , Controle de Credito de Icms do Ativo Permanente , Movimentacao     sist/arqf/sp16a03
+d\nowidctlpar\sb100\sa100\cf3 sp17a01 , Tabelas de Identicacao dos d\'e9bitos e cr\'e9ditos do PIS/COFINS /u/sist/sped    
+sp17a02 , Tabela de gera\   \'e3o do Pis e Cofins                  /u/sist/sped
+sp17a03 , Identifica\   \'e3o da Matriz                                    /u/sist/sped
+sp17a04 , Demais documentos ( Bloco F )                     /u/sist/sped
+sp17a05 , Bebidas Frias de importa\   \'e3o                         u/sist/sped
+sp17a06 , Tabela de Pis                                         /u/sist/sped    
+sp17a07 , Tabela de Cofins                                      /u/sist/sped
+sp17a08 , Processo referenciado                                /u/sist/sped
+sp17a10 \endash  Informa\   \'f5es dos registros tipo M e 1000           /u/sist/sped
+           (Cr\'e9ditos e contribui\   \'f5es diversas).
+\trowd\trgaph10\trleft,10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\cellx,4\cellx2d\intbl\cf0\cell\cell\row\trowd\trgaph10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\cellx6\cellx12d\intbl\cell\cell\rowd\nowidctlpar\hyphpar0\lang1023 sp01t10  ,  Arquivo de trabalho   ( sphhmmss )                  , /u/sist/tmp          
+""
+pe02a00 , Periodos pra balan\   o
+      \cf1 *         Periodos para Balanco => ../arqp/per99
+      *         Coleta ============> ../arqp/per01
+      *         Pedido Central ======> ../arqp/per02
+      *         DAPI , SEF ========> ../arqp/per03\cf0
+pe02a23 , Tabela de entrega de acerto de balan\   os    ../arqp/pe02a23 
+pe02a45 ,  importação movimento , pronta entrega                , /u/arqp                                          
+to99a99  , Produtos Toledo                                      , *****
+ur01a01  , Produtos Urano                                       , /u/arq
+va01a01  , Vendas Automacao (vaaamm)                            , /u/sist/arqv
+va01a02  , Vendas Automacao com Comissao (veaamm)               , /u/sist/arqv
+va01a03  , Vendas Automacao,Identificacao Autorizado (auaamm)   , /u/sist/arqv
+va01a04  , Vendas Automacao+Vendas com NF (viaamm)              , /u/sist/arqv
+va01a05  , Vendas Automacao , Tipo de Pagamentos (vetpaamm)     , /u/sist/arqv\lang1046
+ va01a09 , Arquivo de vendas \endash  Itens cancelados \endash  Desconto      sist/arqv/ccAAMM
+va01a10 , Venda/Cancelamento de Cupom Totais , vndLLLAAMM       , /u/sist/arqv/
+va01a11 , Venda/Cancelamento de Cupom Itens  , vniLLLAAMM       , /u/sist/arqv/ 
+va01a14 , vnaLLLAAMM , /u/sist/arqv/
+\cf0\lang1023 vd01a01  , Metas de Vendas                                      , /u/sist/arqv
+vd01a03  , Previsao de Vendas/Rentabilidade Diaria (vdmmaa)     , /u/sist/arqv
+vd01a04  , Saldos , Caixa Filiais (Cadastro de ECF)             , /u/sist/arqv
+vd01a05  , Meta de Vendas , Movimento , Caixa                   , /u/sist/arqv
+vd01a06  , Vendas , Fechamento Caixa (fzaamm)                   , /u/sist/arqv
+           Chave: loja+dia+caixa+aliquota+documento 
+vd01a07  , Vendas , Fechamento Caixa (foaamm)                   , /u/sist/arqv
+           Chave: loja+dia+caixa
+vd01a08  , Vendas , Fechamento Filial (flaamm)                  , /u/sist/arqv
+vd01a09  , Vendas , Digitacao do X (fxaamm)                     , /u/sist/arqv
+vd01a10  , Vendas , Fechamento Filial , Via Sangria (fsaamm)    , /u/sist/arqv
+vd01a11  , Previsao de Despesas Diaria (vdmmaa)                 , /u/sist/arqv
+vd01a12  , Previsao de Vendas                                   , /u/sist/arqv
+vd01a13  , Meta de Vendas por Item                              , /u/sist/arqv
+vd01a14  , Meta de Vendas por Vendedor e/ou Comprador           , /u/sist/arqv
+vd01a15  , Previsao de Vendas , Dias nao Trabalhados            , /u/sist/arqv
+vd02a00  , Tabela de Despesas                                   , /u/sist/arqv
+vd02a01  , Metas de Despesas                                    , /u/sist/arqv
+vd02a02  , Despesas Acumuladas no Mes                           , /u/sist/arqv
+vd02a03  , Despesas Acumuladas no Dia (dpmmaa)                  , /u/sist/arqv  
+vd02t03  , Despesas Acumuladas no Dia , Arquivo de Trabalho     , /u/sist/trb
+vd04a00  , Saldo do Caixa , Supermercado                        , /u/sist/arqv
+vd04a01  , Caixa Supermercado  (caixa ecf)                      , /u/sist/arqv
+vd04a02  , Lancamentos Caixa Supermercado (lcaammll)            , /u/sist/arqv
+vd04a03  , Operador Caixa Loja (fxaammll)                       , /u/sist/arqv
+vd04a04  , Historico das Modificacoes do Caixa                  , /u/sist/arqv
+           Apos digitar senha especial 
+vd04a05  , Fechamento de Caixa                                  , /u/sist/arqc
+vd04t05  , Temporario do fechamento de caixa Xx*                , /u/sist/tmp  
+va01e01  , Exportacao Vendas Automacao                          , /u/sist/trb
+va01e02  , Exportacao Vendas Automacao com Comissao             , /u/sist/trb
+va01t02  , Vendas Automacao com Comissao (vahhmmss)             , /u/sist/tmp
+va01v02  , Vendas Automacao Produtos Vinculados (teaamm)        , /u/sist/arqv
+va01v04  ,                                      (tiaamm)        , /u/sist/arqv
+va01v10  ,                                      (ljxxxxxx)      , /u/sist/tmp
+""
+""
+""
+""
+integ107 , Conferencia de estoque 
+integ000 , Venda Balcao 
+integ001 , Venda Balcao 
+integ002 , Controle de Bonus
+integ003 , Recebimento de Mercadorias 
+integ004 , Convenio 
+integ006 , Distribuicao de Produtos (Hudson) 
+integ007 , Rotina Auxiliar (Caminhoes) 
+integ008 , Sistema de Contabilidade 
+integ009 , Estoque On,Line (Cooperativa Esmeraldas)
+integ010 , Exportacao Frente SOCIN
+integ011 , Auditoria (Administracao Materiais e Financeira)
+integ012 , Coleta de Precos 
+integ013 , Rotina Auxiliar (Administracao Financeira)
+integ014 , Convenio (Reduzida) 
+integ015 , Entrada de Hortifrutigranjeiros
+integ016 , Rotina Auxiliar (Administracao de Materiais)
+integ017 , Feirinha (Morini) 
+integ018 , Tesouraria
+Integ019 , Atualiza: Estoque Minimo/Maximo , Giro 8 Semanas , Estoque Diario
+integ020 , Rotina Auxiliar (Administracao de Materiais)
+integ022 , Rotina Coleta por Fornecedor
+integ023 , 1. Gera Compra 02 a partir de Venda 12 (1001 Festas)
+           2. Reorganiza Movimentos
+              (antes fazer backup e nao pode ter usuario trabalhando)
+integ024 , Atualizacao Estoque/Financeiro OnLine
+integ025 , Rotina de Indenizacao (Mega Esporte,SportHall)
+integ027 , Inventario via Coletor
+integ029 , Etiquetas via Coletor
+integ030 , Entrada de Pedido de Cliente via Coletor 
+integ033 , Conferencia de Recebimento de Mercadoria
+integ037 , Entrada de Nota Fiscal via Coletor
+integ031 , Relatorios ATM
+integ039 , Exporta Arquivos Avanco Informatica (MYSQL)
+integ040 , Tabelas Financeiras (Maisa Moveis) 
+integ050 , Exporta Arquivos
+integ053 , Menu Rotina de Coletor RF 
+integ054 , Conferencia Entrada/Saida via Coletor (logistica)
+integ060 , Movimento de Caixa (Retes)
+integ066 , Importação Redução Z automática
+integ070 , Negociacoes (Unissul)
+integ090 , Vasilhame
+integ100 , Venda Balcao 1001 Festas
+integ101 , Orcamento
+integ103 , carga parcial
+integ104 , carga total
+integ122 , rel cupons por classificação
+integ123 , rel estoque por loja 
+integ160 , Orcamento 
+Integ200 , Venda Balcao (Casa Rio Verde)
+integ300 , Menu04
+integ400 , Acompanhamento de Atendimento e OS
+integ500 , Hortifrutigranjeiros 
+integ600 , Tele Vendas
+integ601 , Tele Vendas (Momo,Dupovo)
+integ602 , Tele Vendas (Casa Rio Verde)
+integ603 , Rotina Representante (Hudson)
+integ700 , Orcamento 
+integ800 , Sistema de Logistica
+integ819 , Liberações do arqp
+integ900 , Rotinas Auxiliares (Auditoria)
+integcon , Sistema de Consultas 
+integger , Manutencao e Geracao de Arquivos
+integman , Controle de Programas 
+integpag , Contas a Pagar , Marca Boleto 
+integpar , Parametros do Sistema 
+integral , Sistema Comercial Avanco
+integsve , Controle de OS (Sinal Verde)
+integ,et , Emissao de Etiquetas (ROT010,Emite etiquetas por Data e Hora)
+aut102   , Venda Balcao Rosagas
+mov812   , Rotina Movimentacao 
+mov817   , Rotina para Alteracao do Integpar
+mov818   , Rotina para Alteracao do Usuario (integ,u)
+pre702   , Define Incidencia de Pis/Cofins (Sup.Josildo)
+pre703   , Define Incidencia de Pis/Cofins (Por Fora) 
+integ,p  , Pedido de cliente ( Morini ) chama o programa ped100
+wms007   , Colhe Dados Logisticos
