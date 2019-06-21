@@ -153,6 +153,10 @@ class gerandoPadrao(object):
         print ("Seu arquivo padrao foi gerado com sucesso!")
         self.arquivoSaida.close()
 
+    def visualizarArquivoFiscal(self):
+        for i in self.arquivoFiscal, self.arquivoParametros, self.diretorios:
+            for x in i:
+                print (x)
 
     def gerarArquivoMateriais(self):
         self.dados = self.usuario()
@@ -176,6 +180,11 @@ class gerandoPadrao(object):
         print ("Seu arquivo padrao foi gerado com sucesso!")
         self.arquivoSaida.close()
 
+    def visualizarArquivoMateriais(self):
+        for i in self.arquvioMateriais, self.arquivoParametros, self.diretorios:
+            for x in i:
+                print (x)
+
     def gerarArquivoContabil(self):
         self.dados = self.usuario()
 
@@ -197,6 +206,11 @@ class gerandoPadrao(object):
 
         print ("Seu arquivo padrao foi gerado com sucesso!")
         self.arquivoSaida.close()
+
+    def visualizarArquivoContabil(self):
+        for i in self.arquivoContabil, self.arquivoParametros, self.diretorios:
+            for x in i:
+                print (x)
 
     def gerarArquivoFinanceiro(self):
         self.dados = self.usuario()
@@ -220,6 +234,11 @@ class gerandoPadrao(object):
         print ("Seu arquivo padrao foi gerado com sucesso!")
         self.arquivoSaida.close()
 
+    def visualizarArquivoFinanceiro(self):
+        for i in self.arquivoFinanceiro, self.arquivoParametros, self.diretorios:
+            for x in i:
+                print (x)
+
     def __del__(self):
         print ("Listas zeradas")
 
@@ -240,24 +259,41 @@ try:
 
     
     while True:
-        #print ("Selecione uma opção:\n")
-        #print ("1 - Gerar arquivo padrao\n2 - Visualizar programas gerados nos arquivos\n3 - Sair")
-        print ("Deseja criar uma base padrao para qual setor ?\n")
-        print ("1 - Fiscal\n2 - Contabil\n3 - Materiais\n4 - Financeiro\n5 - Sair")
-        opcao = int(input("Você deseja criar uma arquivo padrao para qual tipo de teste?\n"))
-        if opcao == 1:
-            padrao.zerandoListas()
-            padrao.gerarArquivoFiscal()
-        elif opcao == 2:
-            padrao.zerandoListas()
-            padrao.gerarArquivoContabil()
-        elif opcao == 3:
-            padrao.zerandoListas()
-            padrao.gerarArquivoMateriais()
-        elif opcao == 4:
-            padrao.zerandoListas()
-            padrao.gerarArquivoFinanceiro()
-        elif opcao == 5:
+        print ("Selecione uma opção:\n")
+        print ("1 - Gerar arquivo padrao\n2 - Visualizar programas gerados nos arquivos\n3 - Sair")
+        op = int(input("Qual a sua opção ? "))
+        if op == 1:
+            print ("Setores: \n")
+            print ("1 - Fiscal\n2 - Contabil\n3 - Materiais\n4 - Financeiro\n")
+            opcao = int(input("Deseja criar uma base padrao para qual setor ?\n"))
+            if opcao == 1:
+                padrao.zerandoListas()
+                padrao.gerarArquivoFiscal()
+            elif opcao == 2:
+                padrao.zerandoListas()
+                padrao.gerarArquivoContabil()
+            elif opcao == 3:
+                padrao.zerandoListas()
+                padrao.gerarArquivoMateriais()
+            elif opcao == 4:
+                padrao.zerandoListas()
+                padrao.gerarArquivoFinanceiro()
+            elif opcao == 5:
+                pass
+
+        elif op == 2:
+            print ("Setores:\n")
+            print ("1 - Fiscal\n2 - Contabil\n3 - Materiais\n4 - Financeiro\n")
+            opcao = int(input("Deseja visualar os programas de qual setor ?\n"))
+            if opcao == 1:
+                padrao.visualizarArquivoFiscal()
+            elif opcao == 2:
+                padrao.visualizarArquivoContabil()
+            elif opcao == 3:
+                padrao.visualizarArquivoMateriais()
+            elif opcao == 4:
+                padrao.visualizarArquivoFinanceiro()
+        elif op == 3:
             exit()
 
 except NameError as e:
