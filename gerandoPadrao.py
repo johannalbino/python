@@ -61,26 +61,50 @@ class gerandoPadrao(object):
             del self.client
 
     def usuario(self):
-        condicao = True
+        valida = False
 
         if int(python_version()[0]) < 3:
             self.client = input_raw("Qual o cliente ? ")
+            if len(self.client.split()) > 1:
+                self.client = self.validaName(self.client.split())
         
         else:
             self.client = input("Qual o cliente ? ")
-
-        self.mes = int(input("Qual o mês de referencia que deseja criar o arquivo ? "))
+            if len(self.client.split()) > 1:
+                self.client = self.validaName(self.client.split())
+        self.mes = input("Qual o mês de referencia que deseja criar o arquivo ? ")
+        self.valida = self.validaInteiro(self.mes)
 
         #validando o mes informado pelo usuario
-        while condicao == True:
-            if self.mes > 12 or self.mes <=0:
+        if self.valida == True: self.mes = int(self.mes)
+        while self.valida == False:
+            if self.valida == False:
                 print ("Mês informado incorreto.\n")
-                self.mes = int(input("Qual o mês de referencia que deseja criar o arquivo ? "))
-                condicao = True
-            else:
-                condicao = False
+                self.mes = input("Qual o mês de referencia que deseja criar o arquivo ? ")
+                self.valida = self.validaInteiro(self.mes)
 
-        self.ano = int(input("Qual o ano de referencia que deseja criar o arquivo ? (Apenas dois digitos. Ex: 19) "))
+                if self.valida == True: 
+                    self.mes = int(self.mes)
+                    if self.mes > 12 or self.mes <=0:
+                        print ("Mês informado incorreto.\n")
+                        self.mes = int(input("Qual o mês de referencia que deseja criar o arquivo ? "))
+                        self.valida = False
+
+        self.ano = input("Qual o ano de referencia que deseja criar o arquivo ? (Apenas dois digitos. Ex: 19) ")
+
+        self.valida = self.validaInteiro(self.ano)
+
+        #validando o mes informado pelo usuario
+        if self.valida == True and len(str(self.ano)) <= 2: self.ano = int(self.ano)
+
+        while self.valida == False or len(str(self.ano)) > 2:
+            if self.valida == False or len(str(self.ano)) > 2:
+                print ("Ano informado incorreto.\n")
+                self.ano = input("Qual o ano de referencia que deseja criar o arquivo ? (Apenas dois digitos. Ex: 19) ")
+                self.valida = self.validaInteiro(self.ano)
+
+                if self.valida == True: 
+                    self.ano = int(self.ano)
 
         #retornando uma tupla com a i
         return ['base'+self.client, self.mes, self.ano]
@@ -91,6 +115,17 @@ class gerandoPadrao(object):
             self.dire.append(i+'%s%s* #' %(ano, mes))
             self.dire.append(i+'%s%s* #' %(mes, ano))
         return self.dire
+
+    def validaName(self, nameBase):
+        namec = ''
+        for i in nameBase: namec += i
+        return namec
+
+    def validaInteiro(self, inteiro):
+        if type(inteiro) != int and inteiro.isdigit() == False:
+            return False
+        elif type(inteiro) != int and inteiro.isdigit() == True:
+            return True
 
     def gerarArquivoFiscal(self):
         self.dados = self.usuario()
@@ -198,6 +233,8 @@ try:
 
     
     while True:
+        #print ("Selecione uma opção:\n")
+        #print ("1 - Gerar arquivo padrao\n2 - Visualizar programas gerados nos arquivos\n3 - Sair")
         print ("Deseja criar uma base padrao para qual setor ?\n")
         print ("1 - Fiscal\n2 - Contabil\n3 - Materiais\n4 - Financeiro\n5 - Sair")
         opcao = int(input("Você deseja criar uma arquivo padrao para qual tipo de teste?\n"))
