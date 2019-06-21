@@ -50,6 +50,7 @@ class gerandoPadrao(object):
                      'sist/arqb/*  #', 
                      'sist/arqc/* #']
         self.diretorios = ['sist/sped/*', 'sist/arqf/*', 'sist/arqv/*', 'sist/arqm/*']
+        print ("Listas carregadas com sucesso!")
 
     def zerandoListas(self):
         if len(self.dados) > 0 and len(str(self.arquivoSaida)) > 0 and len(self.dire) > 0:
@@ -76,7 +77,14 @@ class gerandoPadrao(object):
         self.valida = self.validaInteiro(self.mes)
 
         #validando o mes informado pelo usuario
-        if self.valida == True: self.mes = int(self.mes)
+        if self.valida == True: 
+            self.mes = int(self.mes)
+            while self.valida == True and self.mes > 12 or self.mes <=0:
+                print ("Mês informado incorreto.\n")
+                self.mes = input("Qual o mês de referencia que deseja criar o arquivo ? ")
+                self.valida = self.validaInteiro(self.mes)
+                if self.valida == True: self.mes = int(self.mes)
+
         while self.valida == False:
             if self.valida == False:
                 print ("Mês informado incorreto.\n")
@@ -85,10 +93,6 @@ class gerandoPadrao(object):
 
                 if self.valida == True: 
                     self.mes = int(self.mes)
-                    if self.mes > 12 or self.mes <=0:
-                        print ("Mês informado incorreto.\n")
-                        self.mes = int(input("Qual o mês de referencia que deseja criar o arquivo ? "))
-                        self.valida = False
 
         self.ano = input("Qual o ano de referencia que deseja criar o arquivo ? (Apenas dois digitos. Ex: 19) ")
 
@@ -215,6 +219,9 @@ class gerandoPadrao(object):
 
         print ("Seu arquivo padrao foi gerado com sucesso!")
         self.arquivoSaida.close()
+
+    def __del__(self):
+        print ("Listas zeradas")
 
 
 padrao = gerandoPadrao()
