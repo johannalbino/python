@@ -8,14 +8,13 @@ class gerandoPadrao(object):
     nameFileMateriais = 'materiaispadrao.sh'
     nameFileContabil = 'contabilpadrao.sh'
     nameFileFinanceiro = 'financeiropadrao.sh'
-    dados = []
-    arquivoSaida = ''
-    mes = 0
-    ano = 0
-    client = ''
 
     def __init__(self):
-        
+        self.dados = []
+        self.arquivoSaida = ''
+        self.mes = 0
+        self.ano = 0
+        self.client = ''
         self.arquivoFiscal = ['sist/arqv/sp06a62* #Nota Referenciadas',
                  'sist/sped/sp14a56* #Apoio Fiscal',
                  'sist/sped/sp14a42* #Tabela de NCM',
@@ -50,31 +49,24 @@ class gerandoPadrao(object):
                      'sist/arqb/*  #', 
                      'sist/arqc/* #']
         self.diretorios = ['sist/sped/*', 'sist/arqi/*', 'sist/arqf/*', 'sist/arqv/*', 'sist/arqm/*']
-        print ("Listas carregadas com sucesso!")
+        #print ("Listas carregadas com sucesso!")
 
-    def zerandoListas(self):
-        if len(self.dados) > 0 and len(str(self.arquivoSaida)) > 0 and len(self.dire) > 0:
-            del self.dados
-            del self.arquivoSaida
-            del self.dire
-            del self.mes
-            del self.ano
-            del self.client
+    def validationInput(self, text):
+        if int(python_version()[0]) < 3:
+            return raw_input(text)
+        else:
+            return input(text)
 
-    def usuario(self):
+    def getInformation(self):
+
         valida = False
 
-        if int(python_version()[0]) < 3:
-            self.client = raw_input("Qual o cliente ? ")
-            if len(self.client.split()) > 1:
-                self.client = self.validaName(self.client.split())
-            self.mes = raw_input("Qual o mês de referencia que deseja criar o arquivo ? ")
-        
-        else:
-            self.client = input("Qual o cliente ? ")
-            if len(self.client.split()) > 1:
-                self.client = self.validaName(self.client.split())
-            self.mes = input("Qual o mês de referencia que deseja criar o arquivo ? ")
+
+        self.client = self.validationInput("Qual o cliente ? ")
+        if len(self.client.split()) > 1:
+            self.client = self.validaName(self.client.split())
+        self.mes = self.validationInput("Qual o mês de referencia que deseja criar o arquivo ? ")
+
         self.valida = self.validaInteiro(self.mes)
 
         #validando o mes informado pelo usuario
@@ -82,30 +74,20 @@ class gerandoPadrao(object):
             self.mes = int(self.mes)
             while self.valida == True and self.mes > 12 or self.mes <=0:
                 print ("Mês informado incorreto.\n")
-                if int(python_version()[0]) < 3:
-                    self.mes = raw_input("Qual o mês de referencia que deseja criar o arquivo ? ")
-                else:
-                    self.mes = input("Qual o mês de referencia que deseja criar o arquivo ? ")
+                self.mes = self.validationInput("Qual o mês de referencia que deseja criar o arquivo ? ")
                 self.valida = self.validaInteiro(self.mes)
                 if self.valida == True: self.mes = int(self.mes)
 
         while self.valida == False:
             if self.valida == False:
                 print ("Mês informado incorreto.\n")
-                if int(python_version()[0]) < 3:
-                    self.mes = raw_input("Qual o mês de referencia que deseja criar o arquivo ? ")
-                else:
-                    self.mes = input("Qual o mês de referencia que deseja criar o arquivo ? ")
+                self.mes = self.validationInput("Qual o mês de referencia que deseja criar o arquivo ? ")
                 self.valida = self.validaInteiro(self.mes)
 
                 if self.valida == True: 
                     self.mes = int(self.mes)
 
-        if int(python_version()[0]) < 3:
-            self.ano = raw_input("Qual o ano de referencia que deseja criar o arquivo ? (Apenas dois digitos. Ex: 19) ")    
-        else:
-            self.ano = input("Qual o ano de referencia que deseja criar o arquivo ? (Apenas dois digitos. Ex: 19) ")
-
+        self.ano = self.validationInput("Qual o ano de referencia que deseja criar o arquivo ? (Apenas dois digitos. Ex: 19) ")    
         self.valida = self.validaInteiro(self.ano)
 
         #validando o mes informado pelo usuario
@@ -114,10 +96,7 @@ class gerandoPadrao(object):
         while self.valida == False or len(str(self.ano)) > 2:
             if self.valida == False or len(str(self.ano)) > 2:
                 print ("Ano informado incorreto.\n")
-                if int(python_version()[0]) < 3:
-                    self.ano = raw_input("Qual o ano de referencia que deseja criar o arquivo ? (Apenas dois digitos. Ex: 19) ")    
-                else:
-                    self.ano = input("Qual o ano de referencia que deseja criar o arquivo ? (Apenas dois digitos. Ex: 19) ")
+                self.ano = self.validationInput("Qual o ano de referencia que deseja criar o arquivo ? (Apenas dois digitos. Ex: 19) ")
                 self.valida = self.validaInteiro(self.ano)
 
                 if self.valida == True: 
@@ -145,7 +124,7 @@ class gerandoPadrao(object):
             return True
 
     def gerarArquivoFiscal(self):
-        self.dados = self.usuario()
+        self.dados = self.getInformation()
 
         #tratando o valor inteiro menor que 10 para ter dois digitos e não somente um
         if self.dados[1] < 10 and self.dados[1] > 0:
@@ -172,7 +151,7 @@ class gerandoPadrao(object):
                 print (x)
 
     def gerarArquivoMateriais(self):
-        self.dados = self.usuario()
+        self.dados = self.getInformation()
 
         #tratando o valor inteiro menor que 10 para ter dois digitos e não somente um
         if self.dados[1] < 10 and self.dados[1] > 0:
@@ -199,7 +178,7 @@ class gerandoPadrao(object):
                 print (x)
 
     def gerarArquivoContabil(self):
-        self.dados = self.usuario()
+        self.dados = self.getInformation()
 
         #tratando o valor inteiro menor que 10 para ter dois digitos e não somente um
         if self.dados[1] < 10 and self.dados[1] > 0:
@@ -226,7 +205,7 @@ class gerandoPadrao(object):
                 print (x)
 
     def gerarArquivoFinanceiro(self):
-        self.dados = self.usuario()
+        self.dados = self.getInformation()
 
         #tratando o valor inteiro menor que 10 para ter dois digitos e não somente um
         if self.dados[1] < 10 and self.dados[1] > 0:
@@ -252,8 +231,8 @@ class gerandoPadrao(object):
             for x in i:
                 print (x)
 
-    def __del__(self):
-        print ("Listas zeradas")
+    #def __del__(self):
+    #    print ("Programa finalizado!")
 
 
 padrao = gerandoPadrao()
@@ -274,40 +253,44 @@ try:
     while True:
         print ("Selecione uma opção:\n")
         print ("1 - Gerar arquivo padrao\n2 - Visualizar programas gerados nos arquivos\n3 - Sair")
-        op = int(input("Qual a sua opção ? "))
-        if op == 1:
-            print ("Setores: \n")
-            print ("1 - Fiscal\n2 - Contabil\n3 - Materiais\n4 - Financeiro\n")
-            opcao = int(input("Deseja criar uma base padrao para qual setor ?\n"))
-            if opcao == 1:
-                padrao.zerandoListas()
-                padrao.gerarArquivoFiscal()
-            elif opcao == 2:
-                padrao.zerandoListas()
-                padrao.gerarArquivoContabil()
-            elif opcao == 3:
-                padrao.zerandoListas()
-                padrao.gerarArquivoMateriais()
-            elif opcao == 4:
-                padrao.zerandoListas()
-                padrao.gerarArquivoFinanceiro()
-            elif opcao == 5:
-                pass
+        padrao = gerandoPadrao()
+        try:
+            op = int(input("Qual a sua opção ? "))
+            if op == 1:
+                print ("Setores: \n")
+                print ("1 - Fiscal\n2 - Contabil\n3 - Materiais\n4 - Financeiro\n")
+                opcao = int(input("Deseja criar uma base padrao para qual setor ?\n"))
+                if opcao == 1:
+                    
+                    padrao.gerarArquivoFiscal()
+                elif opcao == 2:
+                    
+                    padrao.gerarArquivoContabil()
+                elif opcao == 3:
+                    
+                    padrao.gerarArquivoMateriais()
+                elif opcao == 4:
+                    
+                    padrao.gerarArquivoFinanceiro()
+                elif opcao == 5:
+                    pass
 
-        elif op == 2:
-            print ("Setores:\n")
-            print ("1 - Fiscal\n2 - Contabil\n3 - Materiais\n4 - Financeiro\n")
-            opcao = int(input("Deseja visualar os programas de qual setor ?\n"))
-            if opcao == 1:
-                padrao.visualizarArquivoFiscal()
-            elif opcao == 2:
-                padrao.visualizarArquivoContabil()
-            elif opcao == 3:
-                padrao.visualizarArquivoMateriais()
-            elif opcao == 4:
-                padrao.visualizarArquivoFinanceiro()
-        elif op == 3:
-            exit()
+            elif op == 2:
+                print ("Setores:\n")
+                print ("1 - Fiscal\n2 - Contabil\n3 - Materiais\n4 - Financeiro\n")
+                opcao = int(input("Deseja visualar os programas de qual setor ?\n"))
+                if opcao == 1:
+                    padrao.visualizarArquivoFiscal()
+                elif opcao == 2:
+                    padrao.visualizarArquivoContabil()
+                elif opcao == 3:
+                    padrao.visualizarArquivoMateriais()
+                elif opcao == 4:
+                    padrao.visualizarArquivoFinanceiro()
+            elif op == 3:
+                exit()
+        except ValueError as a:
+            print ("Opção Inválida!\n")
 
 except NameError as e:
     print (e)
