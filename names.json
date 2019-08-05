@@ -1,0 +1,6 @@
+{
+  "name_file_fiscal" :  "fiscal_padrao.sh",
+  "name_file_contabil" : "contabil_padrao.sh",
+  "name_file_materiais" : "materiais_padrao.sh",
+  "name_file_financeiro" : "financeiro_padrao.sh"
+}

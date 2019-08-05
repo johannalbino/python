@@ -1,0 +1,8 @@
+{
+  "programas_parametros" : ["arq/* #", "sist/arq/sp01a01* #Parametro da filial", "sist/arq/sp01a00* #Parametro da filial", "sist/arq/sp03a80* #Parametro da filial", "sist/arq/sp01a04* #Ficha Financeira", "sist/arq/sp01a77* #Grupo de preços"],
+  "programas_fiscal" :  ["sist/arqv/sp06a62* #Nota Referenciadas", "sist/sped/sp14a56* #Apoio Fiscal", "sist/sped/sp14a42* #Tabela de NCM", "sist/sped/sp14a48* #Tabela de NCM", "sist/sped/sp14a10* #Cadastro de produto Complementar", "sist/arqd/sp01*03* #Dedo duro de produto", "sist/arqf/sp03a13* #Cadastro de CFOP", "sist/arqf/sp03a07* #Valores do livro de apuração"],
+  "programas_contabeis" : ["sist/arqv/sp06a62* #Nota Referenciadas", "sist/sped/sp14a56* #Apoio Fiscal", "sist/sped/sp14a42* #Tabela de NCM", "sist/sped/sp14a48* #Tabela de NCM", "sist/sped/sp14a10* #Cadastro de produto Complementar", "sist/arqd/sp01*03* #Dedo duro de produto", "sist/arqf/sp03a13* #Cadastro de CFOP", "sist/arqf/sp03a07* #Valores do livro de apuração", "sist/ctb/* #Configurações contábeis"],
+  "programas_materiais" : ["sist/arq/sp01a09* #Pedido de cliente", "sist/arq/sp01a13* #Pedido de fornecedor", "sist/arqd/sp01*03* #Dedo duro produto", "sist/arqa/sp01*03* #Arquivo auxiliar de produtos", "sist/arqa/sp01*22* #Arquivo auxiliar de produtos", "sist/arqpd/iv* #arquivos de inventario", "sist/arq/sp01a27* #Cadastro de compradores"],
+  "programas_financeiros" : ["sist/arq/*  #", "sist/arqb/*  #", "sist/arqc/* #"],
+  "diretorios" : ["sist/sped/*", "sist/arqi/*", "sist/arqf/*", "sist/arqv/*", "sist/arqm/*"]
+}
