@@ -6,16 +6,13 @@ import json
 class GerarDefault(object):
 
     def __init__(self):
-        self.programas_file = {}
-        self.name_file = {}
-        self.setor = ''
-
         with open('programas.json') as file:
             self.programas_file = json.load(file)
 
         with open('names.json') as file:
             self.name_file = json.load(file)
 
+        self.setor = ''
         self.data = []
         self.file_output = ''
         self.mes = 0
@@ -112,10 +109,10 @@ class GerarDefault(object):
             self.file_output = open(self.name_file['name_file_contabil'], "w+")
             self._programas = self.programas_file['programas_contabeis']
         elif setor is 'materiais':
-            self.file_output = open(self.name_file['name_file_materiais'])
+            self.file_output = open(self.name_file['name_file_materiais'], "w+")
             self._programas = self.programas_file['programas_materiais']
         elif setor is 'financeiro':
-            self.file_output = open(self.name_file['name_file_financeiro'])
+            self.file_output = open(self.name_file['name_file_financeiro'], "w+")
             self._programas = self.programas_file['programas_financeiros']
 
         self.file_output.writelines('#author: Johann Albino\n\n\n\n\n\n\n')
@@ -123,7 +120,6 @@ class GerarDefault(object):
             for x in i:
                 self.file_output.writelines('rar a ' + self.data[0] + ' ' + str(x) + '\n')
         self.file_output.writelines('mv ' + self.data[0] + '.rar /u/rede/avanco')
-        print('#Seu arquivo está disponível na pasta /u/rede/avanco')
         self.file_output.close()
 
     def view_programas(self, setor):
